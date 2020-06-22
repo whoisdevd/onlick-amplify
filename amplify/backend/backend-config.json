@@ -1,0 +1,20 @@
+{
+	"api": {
+		"onclick": {
+			"service": "AppSync",
+			"providerPlugin": "awscloudformation",
+			"output": {
+				"authConfig": {
+					"additionalAuthenticationProviders": [],
+					"defaultAuthentication": {
+						"authenticationType": "API_KEY",
+						"apiKeyConfig": {
+							"description": "OnClick api key for development",
+							"apiKeyExpirationDays": "7"
+						}
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,23 @@
+type Photo @model {
+  id: ID!
+  image: String!
+  description: String!
+  exif: Exif @connection
+  comments: [Comment] @connection
+}
+
+type Exif @model {
+  id: ID!
+  photoID: ID!
+  camera: String!
+  focalLength: String!
+  aperture: String!
+  shutter: String!
+  iso: String!
+}
+
+type Comment @model {
+  id: ID!
+  photoID: ID!
+  content: String!
+}

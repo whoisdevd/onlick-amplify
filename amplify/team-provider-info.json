@@ -1,0 +1,15 @@
+{
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-onclick-dev-51158-authRole",
+            "UnauthRoleArn": "arn:aws:iam::813472230110:role/amplify-onclick-dev-51158-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::813472230110:role/amplify-onclick-dev-51158-authRole",
+            "Region": "ap-south-1",
+            "DeploymentBucketName": "amplify-onclick-dev-51158-deployment",
+            "UnauthRoleName": "amplify-onclick-dev-51158-unauthRole",
+            "StackName": "amplify-onclick-dev-51158",
+            "StackId": "arn:aws:cloudformation:ap-south-1:813472230110:stack/amplify-onclick-dev-51158/cd6f4e20-b418-11ea-9b63-0a6895f2a65c",
+            "AmplifyAppId": "d1g1np0jixhpi8"
+        }
+    }
+}
