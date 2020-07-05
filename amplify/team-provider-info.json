@@ -10,6 +10,17 @@
             "StackName": "amplify-onclick-dev-51158",
             "StackId": "arn:aws:cloudformation:ap-south-1:813472230110:stack/amplify-onclick-dev-51158/cd6f4e20-b418-11ea-9b63-0a6895f2a65c",
             "AmplifyAppId": "d1g1np0jixhpi8"
+        },
+        "categories": {
+            "hosting": {
+                "amplifyhosting": {
+                    "appId": "d1g1np0jixhpi8",
+                    "type": "manual"
+                }
+            },
+            "auth": {
+                "onclick0e1eab3f": {}
+            }
         }
     }
 }
